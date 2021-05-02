@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Ficha de Cadastro</h1>
+
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome">
+
+    <label for="nome">Sobrenome:</label>
+    <input type="text" name="nome" id="nome">
+
+    <br />
+    <br />
+
+    <label for="e-mail">E-mail Profissional:</label>
+    <input type="text" name="e-mail" id="e-mail">
+
+    <br />
+    <br />
+
+    <label for="numero">Contato 1 :</label>
+    <input type="number" name="numero" id="numero">
+
+    <label for="numero">Contato 2 :</label>
+    <input type="number" name="numero" id="numero">
+    <br />
+    <br />
+
+    <div id="endereço">
+      <h3>Endereço</h3>
+    
+      <label for="log">Logradouro:</label>
+      <input type="text" name="log" id="log">
+
+      <label for="numero_1">Número:</label>
+      <input type="number" name="numero_1" id="numero_1">
+
+      <label for="numero_1">Complemento:</label>
+      <input type="number" name="numero_1" id="numero_1">
+
+      <label for="bai">Bairro :</label>
+      <input type="text" name="bai" id="bai">
+      <br />
+      
+      
+      <label for="CE">Cidade:</label>
+      <input type="text" name="CE" id="CE">
+      
+      <label for="CE">Estado:</label>
+      <input type="text" name="CE" id="CE">
+
+      <label for="cep">CEP:</label>
+      <input type="number" name="CEP" id="CEP">
+    </div>
+
+    <br />
+    <br />
+
+    <label for="EC">Estado civil</label>
+    <select name="EC" id="EC">
+        <option value="">-- selecione --</option>
+        <option value="sol">solteiro(a)</option>
+        <option value="cas">casado(a)</option>
+        <option value="div">divorciado(a)</option>
+        <option value="viú">viúvo(a)</option>
+        <option value="sep">separado(a)</option>
+    </select>
+
+    <br />
+    <br />
+
+    <fieldset>
+        <legend>Preferência de contato</legend>
+        <input type="radio" name="contato" id="contato_1" value="E">
+        <label for="contato_1">E-mail</label>
+        <input type="radio" name="contato" id="contato_2" value="T">
+        <label for="contato_2">Telefone</label>
+    </fieldset>
+
+    <br />
+    
+    <input type="checkbox" name="concordo" id="concordo">
+    <label for="concordo">Li e Concordo</label>
+
+    <br />
+    <br />
+
+    <button type="reset">Limpar</button>
+    <button type="submit">Enviar</button>
+</body>
+</html>
